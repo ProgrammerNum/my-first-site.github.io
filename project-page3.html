@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site to school</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>ЛИДЕР</strong> года</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./рельеф.html" class="nav-list__link">РЕЛЬЕФ И ПОЛЕЗНЫЕ
+                            ИСКОПАЕМЫЕ</a></li>
+                    <li class="nav-list__item"><a href="./памятники.html"
+                            class="nav-list__link nav-list__link--active">ПАМЯТНИКИ</a></li>
+                    <li class="nav-list__item"><a href="./достопримечательности.html"
+                            class="nav-list__link ">ДОСТОПРИМЕЧАТЕЛЬНОСТИ</a></li>
+                    <li class="nav-list__item"><a href="./маршруты.html" class="nav-list__link">МАРШРУТЫ</a></li>
+                    <li class="nav-list__item"><a href="./контакты.html" class="nav-list__link">КОНТАКТЫ</a></li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="section">
+        <div class="project3">
+
+            <div class="container">
+                <div class="project-details">
+
+
+                    <h1 class="title-1">Курган партизанской славы</h1>
+
+                    <img src="./img/icons/Курган славы" alt="" class="project-details__cover">
+                    <div class="project-details__desc">
+                        <p>Курган партизанской славы – памятник сопротивления народа во время Великой Отечественной
+                            войны.</p>
+                        <p> Наши предки – славяне – насыпали курганы в память о битвах, о победах, которые одерживали в
+                            этих битвах, в честь полководцев, чьим военным талантом эти победы добывались, и в память о
+                            тех, кто не вернулся с полей сражений.</p>
+                        <p> В память о партизанском движении на Кировщине на обочине шоссе Бобруйск – Могилев на 37
+                            километре в 1968 году был насыпан высокий курган, наверху которого установлен обелиск, на
+                            мраморной доске которого значится: «В этих лесах в годы Великой Отечественной войны
+                            дислоцировалась девятая партизанская бригада имени С. М. Кирова, находился Кировский
+                            подпольный райком КПБ, издавалась газета «Кiравец».</p>
+                        <p> Кировский район был полностью оккупирован уже 30 июня 1941 года. Немецко-фашистские
+                            захватчики установили режим насилия, грабежа и кровавого террора. С первых дней оккупации
+                            патриотически настроенные граждане начали организовывать сопротивление врагу. Образовались
+                            подпольные группы, а затем партизанские отряды. С декабря 1941 года и до освобождения района
+                            частями Красной Армии на территории района действовало 6 партизанских отрядов, которые
+                            впоследствии вошли в 9-ю Кировскую партизанскую бригаду. А затем в Кировскую
+                            военно-оперативную группу, в которой насчитывалось около 3-х тысяч партизан. </p>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <audio id="mySong">
+                <source src="mp/Creepy_Nuts_-_Otonoke_Dandadan_Opening_HQ_78277237.mp3" type="audio/mp3">
+
+            </audio>
+
+            <script>
+                var mySong = document.getElementById("mySong");
+                var icon = document.getElementById("icon");
+                icon.onclick = function () {
+
+                    if (mySong.paused) {
+                        mySong.play();
+                        icon.src = "img/icons/Stop.png"
+                    } else {
+                        mySong.pause();
+                        icon.src = "img/icons/Play.png"
+                    }
+                }
+
+
+            </script>
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a
+                            href="https://www.instagram.com/srednaia_school2_kirovsk?igsh=bjJrb3Nxd3lpd3c0"><img
+                                src="./img/icons/instagram.svg" alt="Link"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>Make with my school</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

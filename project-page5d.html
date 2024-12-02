@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site to school</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>ЛИДЕР</strong> года</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./рельеф.html" class="nav-list__link">РЕЛЬЕФ И ПОЛЕЗНЫЕ
+                            ИСКОПАЕМЫЕ</a></li>
+                    <li class="nav-list__item"><a href="./памятники.html" class="nav-list__link ">ПАМЯТНИКИ</a></li>
+                    <li class="nav-list__item"><a href="./достопримечательности.html"
+                            class="nav-list__link nav-list__link--active ">ДОСТОПРИМЕЧАТЕЛЬНОСТИ</a></li>
+                    <li class="nav-list__item"><a href="./маршруты.html" class="nav-list__link">МАРШРУТЫ</a></li>
+                    <li class="nav-list__item"><a href="./контакты.html" class="nav-list__link">КОНТАКТЫ</a></li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="section">
+        <div class="project3">
+
+            <div class="container">
+                <div class="project-details">
+
+
+
+                    <div class="right-col">
+                        <h1 class="title-1">Ботанический памятник <p>«Парк Булгаков»</p>
+                        </h1>
+                        <img src="img/icons/Play.png" id="icon3">
+                    </div>
+                    <div class="projects0ne">
+
+
+                        <img src="./img/icons/Парк.webp" alt="" class="project-details__cover">
+                        <img src="./img/icons/Булкаки.jpg" alt="" class="project-details__cover">
+                    </div>
+                    <div class="project-details__desc">
+                        <p>«Парк «Булгаков» был посажен в “английском” стиле в 19 веке, имел каскад искусственных
+                            водоемов по реке Добосна, амбары, дом управляющего, склады, скотный двор из красного
+                            кирпича, птичник, спиртовой и сахарный заводы. Парк с дворцовым ансамблем занимает площадь
+                            8,6227 га (первоначально 18 га парка и около 80 га сада с липовыми аллеями в качестве
+                            обсадки). Аллей в парке несколько, каждая засажена определенным видом: кленовая, яловая,
+                            тополиная, липовая. Расположение аллей образует инициалы его владельца. Сохранились
+                            отдельные деревья: лиственница европейская, ясень пенсильванский, клен татарский, орех
+                            серый, липа американская и каралинская, клен серебристый. </p>
+                        <p>В настоящее время памятник включает в себя старинный парк с вековыми деревьями и дворцовый
+                            комплекс со скульптурами, которые, по мнению Минприроды, имеют большой рекреационный
+                            потенциал.</p>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+            <audio id="mySong">
+                <source src="mp/Creepy_Nuts_-_Otonoke_Dandadan_Opening_HQ_78277237.mp3" type="audio/mp3">
+
+            </audio>
+
+            <script>
+                var mySong = document.getElementById("mySong");
+                var icon3 = document.getElementById("icon3");
+                icon3.onclick = function () {
+
+                    if (mySong.paused) {
+                        mySong.play();
+                        icon3.src = "img/icons/Stop.png"
+                    } else {
+                        mySong.pause();
+                        icon3.src = "img/icons/Play.png"
+                    }
+                }
+
+
+            </script>
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a
+                            href="https://www.instagram.com/srednaia_school2_kirovsk?igsh=bjJrb3Nxd3lpd3c0"><img
+                                src="./img/icons/instagram.svg" alt="Link"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>Make with my school</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

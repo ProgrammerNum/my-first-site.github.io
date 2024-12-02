@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site to school</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>ЛИДЕР</strong> года</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./рельеф.html" class="nav-list__link">РЕЛЬЕФ И ПОЛЕЗНЫЕ ИСКОПАЕМЫЕ</a></li>
+                    <li class="nav-list__item"><a href="./памятники.html" class="nav-list__link ">ПАМЯТНИКИ</a></li>
+                    <li class="nav-list__item"><a href="./достопримечательности.html"
+                            class="nav-list__link nav-list__link--active ">ДОСТОПРИМЕЧАТЕЛЬНОСТИ</a></li>
+                    <li class="nav-list__item"><a href="./маршруты.html" class="nav-list__link">МАРШРУТЫ</a></li>
+                    <li class="nav-list__item"><a href="./контакты.html" class="nav-list__link">КОНТАКТЫ</a></li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="section">
+        <div class="project3"> 
+
+        <div class="container">
+            <div class="project-details">
+     
+               <div class="right-col">
+                <h1 class="title-1">Памятник природы  <p>«Дубовая роща»</p></h1>
+                <img src="img/icons/Play.png" id="icon3" >
+               </div>
+
+               <img src="./img/icons/Памятник природы местного значения.jpg" alt="" class="project-details__cover">
+               <div class="project-details__desc">
+                <P> Ботанический  объект «Дубовая роща» объявлен  ботаническим памятником природы местного значения решением Кировского районного исполнительного комитета от 18.01.2012 № 1-18 "Об объявлении ботанического памятника природы местного значения". </P>
+                    <P> Памятник природы расположен в 1,9 километрах на северо-запад от деревни Думановщина по автодороге Р-93 Думановщина – Гута. Его площадь 19,3 гектара. В лесных угодьях Бобруйского лесничества государственного лесохозяйственного учреждения "Бобруйский лесхоз".</P>
+                        <P>Памятник природы местного значения "Дубовая роща" состоит из естественного насаждения дуба. Высоковозрастная дубрава является "убежищем" для многих видов растений и животных, отдельные виды которых обитают только на живых стволах и (или) крупновалежной древесине, пнях и сухостое определенных пород деревьев. Поэтому важным является сохранение на территории условий естественного развития сложившейся экосистемы. В связи с этим на охраняемом участке запрещается: проведение работ, связанных с изменением гидрологического режима, нарушением почв; различные виды рубок.</P>
+                            <P> Охраняемая территория представляет собой естественное насаждение дуба площадью 9,2 гектара и характеризуется следующим: возраст дуба 110 лет,  средняя высота дуба 23 метра, средний диаметр 73 сантиметра.</P>
+                                <P>Подрост, главным образом, представлен грабом обыкновенным со средней высотой 4,5 метра. Реже встречаются дуб черешчатый, клен остролистный, береза бородавчатая, осина, сосна и ель. Возобновление дуба представлено 2-3 летними проростками высотой 0,4 метра – неблагонадежное. Фон подлеска составляют лещина обыкновенная, бересклет бородавчатый, крушина ломкая, рябина обыкновенная и калина обыкновенная. Единично встречается можжевельник обыкновенный. Проективное покрытие напочвенного покрова составляет 30 процентов. На территории памятника произрастает перелеска благородная – редкий вид, нуждающийся в профилактической охране.</P> 
+                   
+               </div>
+
+             </div>
+
+    
+        
+        </div>
+        <audio id="mySong">
+            <source src="mp/Creepy_Nuts_-_Otonoke_Dandadan_Opening_HQ_78277237.mp3" type="audio/mp3">
+
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var  icon3 = document.getElementById("icon3");
+            icon3.onclick = function() {
+
+               if(mySong.paused){
+                mySong.play();
+                icon3.src = "img/icons/Stop.png"
+               }else{
+                mySong.pause();
+                icon3.src = "img/icons/Play.png"
+               }
+            }
+
+
+        </script>
+
+
+        
+     </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a href="https://www.instagram.com/srednaia_school2_kirovsk?igsh=bjJrb3Nxd3lpd3c0"><img src="./img/icons/instagram.svg" alt="Link"></a></li>                                   
+                </ul>
+                <div class="copyright">
+                    <p>Make with my school</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

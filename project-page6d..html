@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site to school</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>ЛИДЕР</strong> года</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./рельеф.html" class="nav-list__link">РЕЛЬЕФ И ПОЛЕЗНЫЕ
+                            ИСКОПАЕМЫЕ</a></li>
+                    <li class="nav-list__item"><a href="./памятники.html" class="nav-list__link ">ПАМЯТНИКИ</a></li>
+                    <li class="nav-list__item"><a href="./достопримечательности.html"
+                            class="nav-list__link nav-list__link--active ">ДОСТОПРИМЕЧАТЕЛЬНОСТИ</a></li>
+                    <li class="nav-list__item"><a href="./маршруты.html" class="nav-list__link">МАРШРУТЫ</a></li>
+                    <li class="nav-list__item"><a href="./контакты.html" class="nav-list__link">КОНТАКТЫ</a></li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="section">
+        <div class="project3">
+
+            <div class="container">
+                <div class="project-details">
+
+
+
+                    <div class="right-col">
+                        <h1 class="title-1">Республиканский ландшафтный заказник <p>«Свислочско-Березинский»</p>
+                        </h1>
+                        <img src="img/icons/Play.png" id="icon4">
+                    </div>
+                    <div class="projects0ne">
+
+                        <img src="./img/icons/Республиканский ландшафтный заказник.jpg" alt=""
+                            class="project-details__cover">
+                        <img src="./img/icons/Заказник 4.jpg" alt="" class="project-details__cover">
+                    </div>
+
+                    <div class="project-details__desc">
+                        <p>Республиканский ландшафтный заказник «Свислочско-Березинский» Постановлением Совета министров
+                            Республики Беларусь «О республиканских заказниках» от 4 февраля 2015 года №71 объявлен в
+                            Осиповичском, Кличевском, Кировском районах Могилевской области на площади 17480,54 гектара.
+                            Размещается в лесном фонде Осиповичского опытного и Кличевского лесхозов, территории 4
+                            сельхозпредприятий и на землях запаса. В Кировском районе заказник находится в междуречье
+                            рек Березина и Свислочь и прилегающего к ним лесоболотного массива, на землях лесного фонда
+                            Запольского лесничества (401,47 гектара) государственного лесохозяйственного учреждения
+                            «Кличевский лесхоз». Заказник отличается богатством флоры и хорошей сохранностью в
+                            естественном состоянии редких растительных сообществ. Значительная часть территории
+                            представляет собой затопляемую пойму рек Березина, Свислочь и Ольса, которые имеют важное
+                            значение для сохранения растений, играют существенную роль в весенней миграции птиц, как
+                            место их остановки на отдых и кормежку. Во время миграции здесь были отмечены одновременно
+                            более 1000 турухтанов, 200-300 белокрылых крачек, более 50 чирков-трескунков и других видов.
+                            Зафиксировано гнездование до 100 пар на 1000 га различных видов дятлов. На территории
+                            заказника произрастает самая крупная в республике популяция плюща обыкновенного —
+                            реликтового среднеевропейского вида.
+                        <p>В 2016 году заказник включён во Всемирный список водно-болотных угодий, имеющих международное
+                            значение, прежде всего, как место обитания водоплавающих птиц. В соответствии постановлением
+                            Совета министров № 649 от 2 июля 2014 года «О развитии системы особо охраняемых природных
+                            территорий» в 2019 году заказник планируется преобразовать в национальный парк
+                            «Свислочско-Березинский».</p>
+                        </p>
+                    </div>
+
+
+
+
+                    </h2>
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+            <audio id="mySong">
+                <source src="mp/Creepy_Nuts_-_Otonoke_Dandadan_Opening_HQ_78277237.mp3" type="audio/mp3">
+
+            </audio>
+
+            <script>
+                var mySong = document.getElementById("mySong");
+                var icon4 = document.getElementById("icon4");
+                icon4.onclick = function () {
+
+                    if (mySong.paused) {
+                        mySong.play();
+                        icon4.src = "img/icons/Stop.png"
+                    } else {
+                        mySong.pause();
+                        icon4.src = "img/icons/Play.png"
+                    }
+                }
+
+
+            </script>
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a
+                            href="https://www.instagram.com/srednaia_school2_kirovsk?igsh=bjJrb3Nxd3lpd3c0"><img
+                                src="./img/icons/instagram.svg" alt="Link"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>Make with my school</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site to school</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>ЛИДЕР</strong> года</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./рельеф.html" class="nav-list__link">РЕЛЬЕФ И ПОЛЕЗНЫЕ ИСКОПАЕМЫЕ</a></li>
+                    <li class="nav-list__item"><a href="./памятники.html" class="nav-list__link nav-list__link--active">ПАМЯТНИКИ</a></li>
+                    <li class="nav-list__item"><a href="./достопримечательности.html"
+                            class="nav-list__link ">ДОСТОПРИМЕЧАТЕЛЬНОСТИ</a></li>
+                    <li class="nav-list__item"><a href="./маршруты.html" class="nav-list__link">МАРШРУТЫ</a></li>
+                    <li class="nav-list__item"><a href="./контакты.html" class="nav-list__link">КОНТАКТЫ</a></li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="section">
+        <div class="project3"> 
+
+        <div class="container">
+            <div class="project-details">
+
+            
+               <h1 class="title-1">Алея Славы Героев</h1>
+
+               <img src="./img/icons/022.webp" alt="" class="project-details__cover">
+               <div class="project-details__desc">
+                <p>НАШИ ЗНАМЕНИТЫЕ ЗЕМЛЯКИ</p>
+                <p> Звания Героя Советского Союза удостоены:</p>   
+                <p>  1. Орловский Кирилл Прокофьевич (30.01.1895 – 13.01.1968 г.г.) Родился в дер.Мышковичи. Руководитель партизанского движения на Беларуси в годы гражданской и Великой Отечественной войн. С 1944 года – председатель колхоза «Рассвет» Кировского раойна.</p>  
+                <p>  2. Добровольский Ерофей Владимирович (19.11.1903 – 27.04.1987 г.г.) Родился в дер.Шалаевка. Генерал-лейтенант. В Великую Отечественную войну: командир полка, начальник штаба, помощник командира, командир стрелковой дивизии, корпуса.</p>  
+                <p>  3. Мельников Андрей Иосифович (1914 – 29.10.1943 г.г.). Родился в дер. Колбово. Капитан. Участвовал в боях при освобождении Украины. Совершил подвиг при форсировании Днепра и освобождении Киева.</p>  
+                <p>  4. Никитин Федор Прокофьевич (13.04.1913 – 03.11.1979 г.г.). Родился в дер. Шпилевщина. Сержант, командир стрелкового отделения. Отличился в боях при освобождении Чаусского района Могилевской области.</p>  
+                <p>  5. Рабцевич Александр Маркович (14.03.1898 – 11.04.1961 г.г.). Родился в дер.Лозовая Буда. Участник гражданской войны, национально-революционной войны в Испании (1936-1939 г.г.). В Великую Отечественную войну участник обороны Москвы, командир роты мотострелковой бригады особого назначения.</p>  
+                <p>  6. Худолеев Григорий Александрович (22.02.1902 – 04.07.1964 г.г.). Родился в дер.Изобелино. Полковник. В Великую Отечественную войну участник обороны Несвижа, Слуцка, Кричева, Климович, Московской битвы, освобождения Беларуси, Литвы, Латвии, Польши. Отличился в Витебско-Оршанской операции 1944 г.</p>
+               </div>
+
+
+
+
+
+          
+               
+               
+
+
+             </div>
+
+    
+        
+        </div>
+        <audio id="mySong">
+            <source src="mp/Creepy_Nuts_-_Otonoke_Dandadan_Opening_HQ_78277237.mp3" type="audio/mp3">
+
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var  icon = document.getElementById("icon");
+            icon.onclick = function() {
+
+               if(mySong.paused){
+                mySong.play();
+                icon.src = "img/icons/Stop.png"
+               }else{
+                mySong.pause();
+                icon.src = "img/icons/Play.png"
+               }
+            }
+
+
+        </script>
+
+
+        
+     </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a href="https://www.instagram.com/srednaia_school2_kirovsk?igsh=bjJrb3Nxd3lpd3c0"><img src="./img/icons/instagram.svg" alt="Link"></a></li>                                   
+                </ul>
+                <div class="copyright">
+                    <p>Make with my school</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

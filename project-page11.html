@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site to school</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>ЛИДЕР</strong> года</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./рельеф.html" class="nav-list__link">РЕЛЬЕФ И ПОЛЕЗНЫЕ
+                            ИСКОПАЕМЫЕ</a></li>
+                    <li class="nav-list__item"><a href="./памятники.html"
+                            class="nav-list__link nav-list__link--active">ПАМЯТНИКИ</a></li>
+                    <li class="nav-list__item"><a href="./достопримечательности.html"
+                            class="nav-list__link ">ДОСТОПРИМЕЧАТЕЛЬНОСТИ</a></li>
+                    <li class="nav-list__item"><a href="./маршруты.html" class="nav-list__link">МАРШРУТЫ</a></li>
+                    <li class="nav-list__item"><a href="./контакты.html" class="nav-list__link">КОНТАКТЫ</a></li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="section">
+        <div class="project3">
+
+            <div class="container">
+                <div class="project-details">
+
+
+                    <h1 class="title-1">Обелиск</h1>
+                    <img src="./img/icons/37" alt="" class="project-details__cover">
+                    <div class="project-details__desc">
+                        <p>На обелиске имеется мемориальные доски с 36 фамилиями воинов и партизан. Обелиск установлен в
+                            1959 г. 29.09.2015 – перезахоронение останков солдата Галимского Николая Филипповича.</p>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+            <audio id="mySong">
+                <source src="mp/Creepy_Nuts_-_Otonoke_Dandadan_Opening_HQ_78277237.mp3" type="audio/mp3">
+
+            </audio>
+
+            <script>
+                var mySong = document.getElementById("mySong");
+                var icon = document.getElementById("icon");
+                icon.onclick = function () {
+
+                    if (mySong.paused) {
+                        mySong.play();
+                        icon.src = "img/icons/Stop.png"
+                    } else {
+                        mySong.pause();
+                        icon.src = "img/icons/Play.png"
+                    }
+                }
+
+
+            </script>
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a
+                            href="https://www.instagram.com/srednaia_school2_kirovsk?igsh=bjJrb3Nxd3lpd3c0"><img
+                                src="./img/icons/instagram.svg" alt="Link"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>Make with my school</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

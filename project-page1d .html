@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site to school</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>ЛИДЕР</strong> года</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./рельеф.html" class="nav-list__link">РЕЛЬЕФ И ПОЛЕЗНЫЕ
+                            ИСКОПАЕМЫЕ</a></li>
+                    <li class="nav-list__item"><a href="./памятники.html" class="nav-list__link ">ПАМЯТНИКИ</a></li>
+                    <li class="nav-list__item"><a href="./достопримечательности.html"
+                            class="nav-list__link nav-list__link--active ">ДОСТОПРИМЕЧАТЕЛЬНОСТИ</a></li>
+                    <li class="nav-list__item"><a href="./маршруты.html" class="nav-list__link">МАРШРУТЫ</a></li>
+                    <li class="nav-list__item"><a href="./контакты.html" class="nav-list__link">КОНТАКТЫ</a></li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="section">
+        <div class="project3">
+
+            <div class="container">
+                <div class="project-details">
+                    <div class="right-col">
+                        <h1 class="title-1">Дворцово-парковый ансамбль</h1>
+                        <img src="img/icons/Play.png" id="icon">
+                    </div>
+                    <div class="projects0ne">
+                        <img src="./img/icons/Жиличи.jpeg" alt="" class="project-details__cover">
+                        <img src="./img/icons/Ансамбль1.webp" alt="" class="project-details__cover">
+                    </div>
+                    <div class="project-details__desc">
+
+                        <p>Основали дворец в Жиличах представители старинного белорусского дворянского рода Булгаков 200
+                            лет назад. А если точнее, заложить усадебный комплекс приказал маршалок Игнатий Булгак в
+                            1820-х годах.</p>
+
+                        <p> По легенде, он был одним из тех, кто вместе с русской армией дошел до Парижа и там
+                            вдохновился бесподобными образцами французской архитектуры, которые позже частично
+                            воплотились и в его новом дворце. Но это маловероятно, ведь на момент взятия Парижа (1814
+                            год) ему было всего 16 лет.</p>
+
+                        <p>Как бы то ни было, а усадебный дом Булгаков по своему великолепию действительно ничем не
+                            уступал блестящим французским дворцам. Проект подготовили Клобуковский и Кароль
+                            Подчашинский.</p>
+
+                        <p>Строительство растянулось на десятки лет. Сначала появился главный корпус в виде буквы П с
+                            четырехэтажной башной-бельведером и портиками, украшающими фасады. Позже возвели длинное
+                            двухэтажное крыло, в котором расположилась дворцовая часовня и жилые помещения.</p>
+
+                        <p> А уже в начале XX века построили галерею, в которой размещалась оранжерея: в ней выращивали
+                            экзотические фрукты и растения, а летом выносили их в сад. Таким образом дворец в плане
+                            представлял собой квадрат с замкнутым внутренним двором.</p>
+                        <p>На удивление, дворец благополучно пережил обе мировые войны и ни разу даже не пострадал во
+                            время пожаров. Правда, во Вторую мировую войну в нем квартировались немецкие солдаты. Они
+                            разобрали галерею с оранжереей на кирпич, а усадебный парк превратили в кладбище. Но в целом
+                            серьезного урона зданию они не нанесли.</p>
+                        <p>В 1973 году подготовили проект воссоздания усадьбы, но на тот момент он еще не был воплощен.
+                            В 1990-х в комплексе открыли краеведческий музей и музыкальную школу. И уже в наши дни
+                            наконец всерьез приступили к реставрации. Она до сих пор продолжается, но основной объем
+                            работ уже проделан. Во дворец даже пускают посетителей, правда, еще не все помещения
+                            доступны для осмотра. </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <audio id="mySong">
+                <source src="mp/Creepy_Nuts_-_Otonoke_Dandadan_Opening_HQ_78277237.mp3" type="audio/mp3">
+
+            </audio>
+
+            <script>
+                var mySong = document.getElementById("mySong");
+                var icon = document.getElementById("icon");
+                icon.onclick = function () {
+
+                    if (mySong.paused) {
+                        mySong.play();
+                        icon.src = "img/icons/Stop.png"
+                    } else {
+                        mySong.pause();
+                        icon.src = "img/icons/Play.png"
+                    }
+                }
+
+
+            </script>
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a
+                            href="https://www.instagram.com/srednaia_school2_kirovsk?igsh=bjJrb3Nxd3lpd3c0"><img
+                                src="./img/icons/instagram.svg" alt="Link"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>Make with my school</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

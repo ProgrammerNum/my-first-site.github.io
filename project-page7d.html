@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site to school</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>ЛИДЕР</strong> года</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./рельеф.html" class="nav-list__link">РЕЛЬЕФ И ПОЛЕЗНЫЕ ИСКОПАЕМЫЕ</a></li>
+                    <li class="nav-list__item"><a href="./памятники.html" class="nav-list__link ">ПАМЯТНИКИ</a></li>
+                    <li class="nav-list__item"><a href="./достопримечательности.html"
+                            class="nav-list__link nav-list__link--active ">ДОСТОПРИМЕЧАТЕЛЬНОСТИ</a></li>
+                    <li class="nav-list__item"><a href="./маршруты.html" class="nav-list__link">МАРШРУТЫ</a></li>
+                    <li class="nav-list__item"><a href="./контакты.html" class="nav-list__link">КОНТАКТЫ</a></li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="section">
+        <div class="project3"> 
+
+        <div class="container">
+            <div class="project-details">
+
+            
+              
+               
+               <div class="right-col">
+                <h1 class="title-1">Участок леса с ценными древесными породами «Чигиринский»</h1>
+                <img src="img/icons/Play.png" id="icon5" >
+               </div>
+
+               <img src="./img/icons/Чигини.jpg.crdownload" alt="" class="project-details__cover">
+               <div class="project-details__desc">
+                <p>«Участок леса с ценными древесными породами «Чигиринский», расположен на территории Стайковского сельского Совета Кировского района на землях Чигиринского лесничества Бобруйского лесхоза, в 2 километрах от д.Немки. Площадь памятника природы 39000 квадратных метров. В составе: сосна Веймутова, лиственница сибирская, лиственница европейская. Возраст деревьев
+                    свыше 130 лет, высота 25-30 м. Участок леса имеет ценность, как пример высокопродуктивных насаждений искусственного происхождения различного породного смешения.</p>
+               </div>
+
+       
+               
+
+
+             </div>
+
+    
+        
+        </div>
+        <audio id="mySong">
+            <source src="mp/Creepy_Nuts_-_Otonoke_Dandadan_Opening_HQ_78277237.mp3" type="audio/mp3">
+
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var  icon5 = document.getElementById("icon5");
+            icon5.onclick = function() {
+
+               if(mySong.paused){
+                mySong.play();
+                icon5.src = "img/icons/Stop.png"
+               }else{
+                mySong.pause();
+                icon5.src = "img/icons/Play.png"
+               }
+            }
+
+
+        </script>
+
+
+        
+     </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a href="https://www.instagram.com/srednaia_school2_kirovsk?igsh=bjJrb3Nxd3lpd3c0"><img src="./img/icons/instagram.svg" alt="Link"></a></li>                                   
+                </ul>
+                <div class="copyright">
+                    <p>Make with my school</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

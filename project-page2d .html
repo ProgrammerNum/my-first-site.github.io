@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site to school</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>ЛИДЕР</strong> года</a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./рельеф.html" class="nav-list__link">РЕЛЬЕФ И ПОЛЕЗНЫЕ ИСКОПАЕМЫЕ</a></li>
+                    <li class="nav-list__item"><a href="./памятники.html" class="nav-list__link ">ПАМЯТНИКИ</a></li>
+                    <li class="nav-list__item"><a href="./достопримечательности.html"
+                            class="nav-list__link nav-list__link--active ">ДОСТОПРИМЕЧАТЕЛЬНОСТИ</a></li>
+                    <li class="nav-list__item"><a href="./маршруты.html" class="nav-list__link">МАРШРУТЫ</a></li>
+                    <li class="nav-list__item"><a href="./контакты.html" class="nav-list__link">КОНТАКТЫ</a></li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="section">
+        <div class="project3"> 
+
+        <div class="container">
+            <div class="project-details">
+
+            
+              <div class="content">
+                <div class="right-col">
+                     <h1 class="title-1">Агрогородок Мышковичи</h1>
+                    <img src="img/icons/Play.png" id="icon" >                   
+                </div>
+                    
+              </div>
+              <div class="projects0ne">
+              
+               <img src="./img/icons/Агрогородок Мышковичи.jpg" alt="" class="project-details__cover">
+               <img src="./img/icons/Рассвет.jpg" alt="" class="project-details__cover">
+            </div>
+               <div class="project-details__desc">
+               <p>Агрогородок Мышковичи — центр ОАО «Рассвет» им. К.П.Орловского. Один из экспериментально-показательных поселков  Республики Беларусь. Отличается комплексностью застройки, высоким уровнем архитектуры и благоустройства. Центральную площадь формируют: Дворец культуры (1975, архитектор Г. Заборский), 6-этажная гостиница, торговый центр с рестораном, магазинами, памятник К.П. Орловскому. Украшают площадь декоративный фонтан, цветники. В 2014 году агрогородок Мышковичи был центром фестиваля-ярмарки «Дажынкі» Могилевской области.</p> 
+
+               <p>Мышковичи – название деревни происходит от Мишиц, Мышко, Мышкович. В 1506 году – это село (2 двора) в Бобруйском старостве – великокняжеском владении Великого княжества Литовского.</p> 
+
+               <p>В XVII столетии  деревня стала известна как Мишковичи. В 1647 году было всего  13 домов, пекарня, корчма. На основании переписи 1897 года в деревне было  489 жителей.</p> 
+
+               <p>Кирилл Прокофьевич Орловский был руководителем колхоза с 1944 года: спецназовец, человек-волк, человек-легенда, человек-плуг  - так о нем говорили современники, хорошо знавшие его. Крутой, прямой и честный мужик за свою бурную легендарную жизнь, кроме двух золотых звезд Героя был удостоен пяти орденов Ленина, двух орденов Трудового Красного Знамени и многих медалей. О нем написаны несколько книг и сотни газетно-журнальных очерков, сняты документальные фильмы. Известная в Советском Союзе в 1960-х годах художественная картина «Председатель» с Михаилом Ульяновым в главной роли также имеет в основе реальную личность Орловского.</p> 
+               </div>
+             </div>
+
+    
+        
+        </div>
+        <audio id="mySong">
+            <source src="mp/Creepy_Nuts_-_Otonoke_Dandadan_Opening_HQ_78277237.mp3" type="audio/mp3">
+
+        </audio>
+
+        <script>
+            var mySong = document.getElementById("mySong");
+            var  icon = document.getElementById("icon");
+            icon.onclick = function() {
+               if(mySong.paused){
+                mySong.play();
+                icon.src = "img/icons/Stop.png"
+               }else{
+                mySong.pause();
+                icon.src = "img/icons/Play.png"
+               }
+            }
+        </script>
+
+
+        
+    </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a href="https://www.instagram.com/srednaia_school2_kirovsk?igsh=bjJrb3Nxd3lpd3c0"><img src="./img/icons/instagram.svg" alt="Link"></a></li>                                   
+                </ul>
+                <div class="copyright">
+                    <p>Make with my school</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
